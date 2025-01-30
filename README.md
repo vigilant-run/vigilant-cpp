@@ -2,6 +2,13 @@
 
 This is a C++ logging SDK send logs to the Vigilant logging platform.
 
+## Dependencies
+- C++17 or higher
+- CMake 3.14 or higher
+- libcurl
+- nlohmann/json
+- OpenSSL 1.1+ (required by libcurl for HTTPS)
+
 ## Installation
 
 1. Clone the repository
